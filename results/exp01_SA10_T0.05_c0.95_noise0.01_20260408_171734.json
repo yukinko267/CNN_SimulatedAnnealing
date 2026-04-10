@@ -1,0 +1,64 @@
+{
+    "config": {
+        "epochs": 10,
+        "batch_size": 64,
+        "SGD_or_SA": "SGD_SA",
+        "can": 10,
+        "T": 0.05,
+        "c": 0.95,
+        "noise_scale": 0.01,
+        "name": "exp01_SA10_T0.05_c0.95_noise0.01"
+    },
+    "results": [
+        {
+            "epoch": 1,
+            "val_loss": 0.4854427577014182,
+            "val_acc": 0.8744
+        },
+        {
+            "epoch": 2,
+            "val_loss": 0.31937883298393266,
+            "val_acc": 0.911
+        },
+        {
+            "epoch": 3,
+            "val_loss": 0.25076361183243195,
+            "val_acc": 0.9292
+        },
+        {
+            "epoch": 4,
+            "val_loss": 0.2277050233760457,
+            "val_acc": 0.9342
+        },
+        {
+            "epoch": 5,
+            "val_loss": 0.19954426367144296,
+            "val_acc": 0.9412
+        },
+        {
+            "epoch": 6,
+            "val_loss": 0.1913762372343024,
+            "val_acc": 0.9426
+        },
+        {
+            "epoch": 7,
+            "val_loss": 0.17049950278203957,
+            "val_acc": 0.9501
+        },
+        {
+            "epoch": 8,
+            "val_loss": 0.1622222345085091,
+            "val_acc": 0.9476
+        },
+        {
+            "epoch": 9,
+            "val_loss": 0.15452611805859265,
+            "val_acc": 0.9526
+        },
+        {
+            "epoch": 10,
+            "val_loss": 0.15420944594546773,
+            "val_acc": 0.9515
+        }
+    ]
+}
